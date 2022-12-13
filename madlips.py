@@ -1,3 +1,10 @@
+#concatenation of string
+#using .format
+#print("statement{}".format(xyz) )
+#print(f"statement{xyz}")
+
+
+
 name = input("name: ")
 discipline = input("discipline: " )
 university = input("university: ")
