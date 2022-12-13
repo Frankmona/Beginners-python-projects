@@ -1,8 +1,3 @@
-#string concatenation(how to add strings together)
-# Ways to do string concatenation
-# print("subscribe to " + youtuber)
-#print(f"subscribe to {youtuber}")
-
 name = input("name: ")
 discipline = input("discipline: " )
 university = input("university: ")
@@ -15,12 +10,15 @@ skills2 = input("skill: ")
 skills3 = input("skill: ")
 
 
-About=  F" My name is {name},i am a grduate of {discipline} from {university}, {state}, {country} \
-    Currently, i am a {Job_title} at  {Company} \
-        Am a fast learner, with excellent problem solving capabilities, good communication, {skills1}, {skills2}, {skills3} \
-    More so, i have impressive track record of succes which has made organization stand out."      
+
+About=  "My name is {}, i am a graduate of {} from {}, {}, {},.\nCurrently, i am a {} at {}\nAm a fast learner,with excellent problem solving capabilities, good communication, {}, {}, {}, \nMoreso, i have impressive track record of success!" .format(name,discipline,university,state,country,Job_title,Company,skills1, skills2, skills3 )
 print(About)
 
 
 
+        
+
+
     
+
+
